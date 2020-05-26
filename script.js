@@ -1,5 +1,13 @@
 let slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
@@ -22,15 +30,8 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
 
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
 
 
