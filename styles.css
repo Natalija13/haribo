@@ -111,7 +111,6 @@ body {
   .prev,
   .next {
     cursor: default;
-    position: relative;
     top: 100px 200px;
     widows: 60px;
     padding: 5px;
