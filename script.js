@@ -29,7 +29,10 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
+$('.img-wrap .close').on('click', function() {
+    var id = $(this).closest('.img-wrap').find('img').data('id');
+    alert('remove picture: ' + id);
+});
 
       
      
