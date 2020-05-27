@@ -217,15 +217,26 @@ body {
   h2 {
     display:block;
     text-align: left;
-    font-size: 1cm;
+    font-size: 35px;
     color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
-    margin: 30px;
+    margin: 50px;
 }
 p {
   display: block;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   color: darkred;
-  margin: 67px;
+  margin: 100px;
+  font-size: 20px;
+}
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;;  
+}
+.iframe{
+  width: 1663px; 
+  height: 550px; 
 }
 
