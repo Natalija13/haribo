@@ -213,23 +213,23 @@ body {
   }
   h2 {
     display:contents;
-    text-align: left;
+    text-align: center;
     font-size: 35px;
-    color: aliceblue;
-    font-family:Arial, Helvetica, sans-serif;
+    color:darkred;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:bold;
     margin: 50px;
 }
 p {
   display:contents;
   font-weight: bold;
-  font-family: fantasy;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color:white;
   margin: 100px;
   font-size: 18px;
 }
 .container{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;  
   padding: 0px 0px;
 }
@@ -249,15 +249,15 @@ p {
   box-shadow: 1px 1px 2px white;
 }
 .container{
-  font-family: fantasy;
-  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkred;
+  font-weight: bold;
 }
 h3 {
- font-family: 'Times New Roman', Times, serif;
+ font-family: Georgia, 'Times New Roman', Times, serif;
  color: white;
- font-weight: bold;
  text-align:center;
- font-size: 20px;
+ font-size: 19px;
 }
 h4 {
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -272,3 +272,4 @@ h5{
   text-align: center;
   font-size: 25px;
 }
+
