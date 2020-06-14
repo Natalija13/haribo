@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <head>
     <title>HARIBO</title>
     <meta charset="UTF-8">
@@ -26,7 +30,30 @@
 <h5>We’re celebrating 100 years of HARIBO. High time to give our country websites a makeover. We’ll be back before you know it! The new websites not only promise to be more colourful, but will also offer new functions and a whole lot of inspiration for even more joy in everyday life!
 
   In addition to showcasing our products, we’ll also be showing you how to make time together all the sweeter for yourself and others with lots of creative ideas. We’ll also let you know in the near future when and where you can experience HARIBO live, whether it’s at the shop or an event near you. Are you interested in a career at HARIBO? Before long, you’ll be able to find out more about new jobs and career opportunities at HARIBO on your local country website. We look forward to hearing from you!</h5>
+  <form id = "quiz" name = "quiz">
 
+
+   <br> <p class = "questions">Where is the current headquarters of Haribo?</p>
+    <input id = "textbox" type = "text" name = "question1">
+    
+    <p class = "questions">Haribo is a German confectionery company founded by Hans Riegel Sr. in 1920.</p><br><br>
+    <input type = "radio" id = "mc" name = "question2" value = "True"> True<br>
+    <input type = "radio" id = "mc" name = "question2" value = "False"> False<br>
+    
+    <p class = "questions">The company created the first gummy candy in 1928 in the form of little gummy bears called Gummibärchen.</p><br><br>
+    
+    <input type = "radio" id = "mc" name = "question3" value = "True">True <br>
+    <input type = "radio" id = "mc" name = "question3" value = "False">False<br>
+    
+    
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
 <style>
   
   </style>
@@ -34,15 +61,20 @@
   <body> 
   </style>
   <body>
-    <center><img src="https://data.whicdn.com/images/226112270/original.gif" alt="" style="width:850px;height:600px;"></center>
+
+   
+         </div>
+         <div>
+     <center><img src="https://data.whicdn.com/images/226112270/original.gif" alt="" style="width:850px;height:600px;"><center></center>
     <h4>HARIBO worldwide</h6>
       <h5>HARIBO’s success has not been limited to the German market: as a global market leader in fruit gummies and liquorice, HARIBO is now available in more than 100 countries around the world. HARIBO produces at 16 locations in ten countries and employs more than 7,000 people, who ensure that consumers always have a sufficient supply of their favourite products – in the usual exceptional quality.
-      
+     
         And the product range is anything but static, with its own new sweets added continuously and new quality brands purchased in Germany and abroad. The sales and production networks are being expanded and closely coordinated to ensure the products are promptly available at all times.
-            Another recipe for success is the development of special sweets whose flavours are specially tailored to local preferences in different countries.</h5>
+           Another recipe for success is the development of special sweets whose flavours are specially tailored to local preferences in different countries.</h5>
        <center><img src="https://assets.haribo.com/image/upload/s--rR3Qzz1X--/ar_16:9,c_fill,f_auto/w_1608/v1/global/locations-of-haribo-world_map_en.jpg" style="width:1000px;height:600px"></center>
             <div style="text-align:center;">
-<iframe width="1000" height="400" src="https://www.youtube.com/embed/H-kLmdwwTlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="1000" height="400" src="https://www.youtube.com/embed/H-kLmdwwTlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
 <div class="social-footer footer">
   <div class="social-footer-left">
     <a href="#"><img class="logo" ></a>
