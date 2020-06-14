@@ -35,17 +35,7 @@ function deleteit(me) {
     console.log('blabla');
     x.parentNode.removeChild(x);
 }
-$(document).ready(function() {
- 
-    $('.color-choose input').on('click', function() {
-        var headphonesColor = $(this).attr('data-image');
-   
-        $('.active').removeClass('active');
-        $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
-        $(this).addClass('active');
-    });
-   
-  });
+
   function check(){
 
 	var question1 = document.quiz.question1.value;
@@ -85,4 +75,16 @@ $(document).ready(function() {
 	document.getElementById("message").innerHTML = messages[score];
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
-	}
+    }
+    $(document).ready(function() {
+ 
+        $('.color-choose input').on('click', function() {
+            var headphonesColor = $(this).attr('data-image');
+       
+            $('.active').removeClass('active');
+            $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
+            $(this).addClass('active');
+        });
+       
+      });
+     

@@ -288,7 +288,9 @@ color:white;
 
 input {
 	margin-bottom: 20px;
-	display: block;
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font: bold ;
 }
 
 #textbox {
@@ -339,18 +341,15 @@ text-align: center;
 
 }
 
-#picture {
-	width: 375px;
-	height: 245px;
-}
-
-
-
 #mc {
-	display: inline;
+  display: inline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font: bold;
 } 
-  
+.fa{
+  padding: 14px;
+  width:-webkit-fill-available;
+}
  
-  
   
   
